@@ -1,0 +1,9 @@
+#set
+price = input("Enter a price: ")
+price1 = input("Enter another price: ")
+
+
+if int(price) > int(price1):
+    print(' The first price is larger than the second one. ')
+else:
+    exit
