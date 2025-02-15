@@ -1,0 +1,17 @@
+#set input
+user_input = input('Do you want some snacks? (yes/no) ')
+
+if user_input == 'no':
+
+    print("Good! Let's play games instead.")
+
+elif user_input == 'yes':
+
+    snack_input = input('Enter your choice (ice-cream/cookies/candies): ') #set snack input
+    if snack_input == 'ice-cream':
+        print("Remember to wash your hands.")
+    elif snack_input == 'cookies':
+        print("Can you share with your friends?")
+    elif snack_input == 'candies':
+        print("Don't eat too much.")
+    exit

@@ -1,0 +1,4 @@
+size = int(input("Input Addition Table Size smaller 10: "))
+for i in range(size + 1):
+    line = "  ".join(f"{i + j:2}" for j in range(size +1))
+    print(line)

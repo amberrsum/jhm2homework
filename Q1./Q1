@@ -1,0 +1,11 @@
+#set
+price = input("Enter a price: ")
+price1 = input("Enter another price: ")
+
+
+if price > price1:
+    print(' The first price is larger than the second one. ')
+elif price < price1:
+    print('The First price is smaller than the second one. ')
+elif price == price1:
+    print('The price are the same.')

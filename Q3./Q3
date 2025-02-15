@@ -1,0 +1,10 @@
+size = int(input("請輸入加法口訣表的大小（小於 10 的正整數）：")) # size of the table
+for i in range(size + 1): # print table
+    line = "  ".join(f"{i + j:2}" for j in range(size + 1))
+    print(line)  # 列印該行
+
+
+size = int(input("Input Addition Table Size smaller 10: "))
+for i in range(size + 1):
+    line = "  ".join(f"{i + j:2}" for j in range(size +1))
+    print(line)
